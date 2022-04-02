@@ -1,0 +1,18 @@
+{
+  "name": "github-bot",
+  "version": "1.0.0",
+  "description": "this is to populate the github contributions graph.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "random": "^3.0.6",
+    "simple-git": "^3.5.0"
+  }
+}
