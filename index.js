@@ -6,9 +6,9 @@ const FILE_PATH = "./data.json";
 
 const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
-  const x = random.int(0, 150);
+  const x = random.int(0, 56);
   const y = random.int(0, 6);
-  const DATE = moment().subtract(1, "y").add(x, "w").add(y, "d").format();
+  const DATE = moment().subtract(1.4, "y").add(x, "w").add(y, "d").format();
 
   const data = {
     date: DATE,
